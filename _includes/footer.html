@@ -1,0 +1,31 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a class="logo" href="{{ '/' | relative_url }}">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V10l2.5-4 2.5 4v11M9.5 21V7l2.5-4 2.5 4v14M15 21V10l2.5-4 2.5 4v11"/><line class="rail" x1="2" y1="13.5" x2="22" y2="13.5"/></svg>
+        <span>Winnipeg Fence <em>Installation</em></span>
+      </a>
+      <p>Proudly connecting homeowners and property managers with independent, insured fencing professionals serving Winnipeg, St. Vital, St. James, Transcona, East Kildonan, River Heights &amp; surrounding areas.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="{{ '/#services' | relative_url }}">Services</a>
+      <a href="{{ '/#how-it-works' | relative_url }}">How It Works</a>
+      <a href="{{ '/#faq' | relative_url }}">FAQ</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ '/privacy-policy.html' | relative_url }}">Privacy Policy</a>
+      <a href="{{ '/terms.html' | relative_url }}">Terms</a>
+    </nav>
+    <div class="footer-contact">
+      <a class="phone-link on-dark" href="tel:{{ site.data.business.phone_tel }}"><span>{{ site.data.business.phone_display }}</span></a>
+      <a href="{{ '/#quote' | relative_url }}">Get a Free Quote &rarr;</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year"></span> {{ site.data.business.name }}. This is a lead-generation service, not a licensed contractor &mdash; all work is performed by independent local fencing professionals.</p>
+  </div>
+</footer>
+
+<div class="mobile-cta-bar">
+  <a class="btn btn-ghost" href="tel:{{ site.data.business.phone_tel }}">Call Now</a>
+  <a class="btn btn-primary" href="{{ '/#quote' | relative_url }}">Free Quote</a>
+</div>

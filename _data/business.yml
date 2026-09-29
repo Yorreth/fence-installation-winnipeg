@@ -1,0 +1,26 @@
+# =====================================================================
+#  BUSINESS INFO: the only file you need to edit when the renter changes.
+#  Save, push to GitHub, and every page updates in about a minute.
+# =====================================================================
+
+# Name shown in the footer, legal pages, and Google's business data.
+name: Winnipeg Fence Installation
+
+# Phone: `display` is what visitors see, `tel` is what their phone dials.
+# Keep `tel` in +1XXXXXXXXXX format (no spaces or dashes).
+phone_display: "204-881-0634"
+phone_tel: "+12048810634"
+
+# Shown on the Privacy Policy and Terms pages.
+email: info@winnipegfenceinstallation.ca
+
+# Where quote-form submissions are sent (Formspree form URL).
+# Point this at a form that emails the current renter.
+lead_form_endpoint: https://formspree.io/f/xyezoppb
+
+# Opening hours listed in Google's business data (24h format).
+hours_open: "07:00"
+hours_close: "20:00"
+
+# Google Analytics 4 measurement ID, e.g. G-ABC123XYZ. Leave blank to disable.
+google_analytics_id: ""
