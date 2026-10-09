@@ -77,4 +77,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://winnipegfenceinstallation.ca/blog/do-i-need-a-permit-to-build-a-fence-in-winnipeg.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
