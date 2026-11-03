@@ -113,4 +113,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://winnipegfenceinstallation.ca/blog/my-fence-fell-over-after-the-wind-storm-what-do-i-do.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
